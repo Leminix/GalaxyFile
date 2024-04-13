@@ -17,21 +17,21 @@ Use the module, import it into your javascript application or for local file use
 Description: Opens a file dialog to select a local file.
 Usage: fileOptions.openFile()
 Associated Object: fileOptions
-### readFile(source, point)
+### readFile(source, target)
 Description: Reads the content of the specified file and displays it at the specified HTML element.
-Usage: fileOptions.readFile(source, point)
+Usage: fileOptions.readFile(source, target)
 Associated Object: fileOptions
-### writeFile(source, point)
+### writeFile(source, target)
 Description: Writes the content of the specified file to the specified HTML element.
-Usage: fileOptions.writeFile(source, point)
+Usage: fileOptions.writeFile(source, target)
 Associated Object: fileOptions
 ### downloadFile(text)
 Description: Downloads the specified text content as a file.
 Usage: fileOptions.downloadFile(text)
 Associated Object: fileOptions
-### fillFile(number, point)
+### fillFile(number, target)
 Description: Fills the specified HTML element with random data.
-Usage: fileOptions.fillFile(number, point)
+Usage: fileOptions.fillFile(number, target)
 Associated Object: fileOptions
 ### deleteFile(source)
 Description: Deletes the specified file.
@@ -58,9 +58,9 @@ Associated Object: fileOptions
 
 
 ## Functions in imageOptions
-### showImage(source, point)
+### showImage(source, target)
 Description: Displays the selected image at the specified HTML element.
-Usage: imageOptions.showImage(source, point)
+Usage: imageOptions.showImage(source, target)
 Associated Object: imageOptions
 ### contrastImage(point, value)
 Description: Adjusts the contrast of the image displayed at the specified HTML element.
@@ -93,15 +93,15 @@ Associated Object: oversee
 Description: Checks for errors in the specified function and returns -1 if an error occurs.
 Usage: oversee.fileError(fun)
 Associated Object: oversee
-### countCharses(ele)
+### countCharses(element)
 Description: Counts the number of characters in the specified HTML element.
-Usage: oversee.countCharses(ele)
+Usage: oversee.countCharses(element)
 Associated Object: oversee
-### countWords(ele)
+### countWords(element)
 Description: Counts the number of words in the specified HTML element.
-Usage: oversee.countWords(ele)
+Usage: oversee.countWords(element)
 Associated Object: oversee
-### countOnly(ele, char)
+### countOnly(element, char)
 Description: Counts the occurrences of the specified character in the content of the specified HTML element.
 
 
@@ -130,13 +130,13 @@ Description: Counts the occurrences of the specified character in the content of
     
 
 ## Functions in cipher
-### hide(ele)
+### hide(element)
 Description: Encrypts the content of the specified HTML element using a simple cipher.
-Usage: chiper.hide(ele)
+Usage: chiper.hide(element)
 Associated Object: chiper
-### show(ele)
+### show(element)
 Description: Decrypts the content of the specified HTML element encrypted by the hide function.
-Usage: chiper.show(ele)
+Usage: chiper.show(element)
 Associated Object: chiper
 
     // Encrypt content of an HTML element
