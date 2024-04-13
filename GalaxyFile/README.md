@@ -6,6 +6,8 @@ You can install this framework from GitHub
 
 ### Add to your project
 
+https://github.com/Leminix/GalaxyFile
+
 Use the module, import it into your javascript application or for local file use require
 
     import GalaxyFile.js
